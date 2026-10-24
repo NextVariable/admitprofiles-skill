@@ -1,6 +1,6 @@
 # AdmitProfiles · 录取画像研究 / Admission Profile Research
 
-[![验证状态 / Validation](https://github.com/NextVariable/admitprofiles/actions/workflows/validate.yml/badge.svg)](https://github.com/NextVariable/admitprofiles/actions/workflows/validate.yml)
+[![验证状态 / Validation](https://github.com/NextVariable/admitprofiles-skill/actions/workflows/validate.yml/badge.svg)](https://github.com/NextVariable/admitprofiles-skill/actions/workflows/validate.yml)
 
 **输入一个留学项目，跨渠道研究真实录取与入学案例，归纳背景画像，帮助你判断项目匹配与申请定位。**
 **Research real admission and enrollment cases across sources, identify background patterns, and use the evidence to inform program fit and applicant positioning.**
@@ -47,7 +47,7 @@ Public cases do not represent all admitted applicants. Observed paths are not ad
 Requires Codex and web research tools; record validation requires Python 3.11+. Clone the repository and link the skill to your personal skills directory.
 
 ```sh
-git clone https://github.com/NextVariable/admitprofiles.git
+git clone https://github.com/NextVariable/admitprofiles-skill.git
 cd admitprofiles
 mkdir -p "$HOME/.agents/skills"
 ln -s "$PWD/skills/admitprofiles" "$HOME/.agents/skills/admitprofiles"
