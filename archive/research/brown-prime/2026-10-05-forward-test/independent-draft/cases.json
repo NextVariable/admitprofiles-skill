@@ -30,8 +30,8 @@
     },
     {
       "id": "S2",
-      "url": "https://prime.brown.edu/people/megan-d",
-      "title": "Megan D.",
+      "url": "https://redacted.invalid/source/32909d3d4afd",
+      "title": "AP-028",
       "publisher": "Brown University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -41,8 +41,8 @@
     },
     {
       "id": "S3",
-      "url": "https://prime.brown.edu/people/joseph-d",
-      "title": "Joseph D.",
+      "url": "https://redacted.invalid/source/61c04067d856",
+      "title": "AP-018",
       "publisher": "Brown University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -52,8 +52,8 @@
     },
     {
       "id": "S4",
-      "url": "https://prime.brown.edu/people/jacob-f",
-      "title": "Jacob F.",
+      "url": "https://redacted.invalid/source/0a7b055e852c",
+      "title": "AP-016",
       "publisher": "Brown University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -63,14 +63,14 @@
     },
     {
       "id": "S5",
-      "url": "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/",
+      "url": "https://redacted.invalid/source/6c245d436969",
       "title": "2025 grad struggling to find a job",
       "publisher": "Reddit",
       "source_type": "forum_self_report",
       "accessed_on": "2026-10-05",
       "published_on": "2026-04-03",
       "access_state": "full_text",
-      "locator": "Original post by Plenty-Initiative-49, lines 17-35"
+      "locator": "Original post by AP-034, lines 17-35"
     },
     {
       "id": "S6",
@@ -98,7 +98,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Megan D.",
+      "public_name_or_handle": "AP-028",
       "identity_link": {
         "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
         "source_ids": [
@@ -278,7 +278,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Joseph D.",
+      "public_name_or_handle": "AP-018",
       "identity_link": {
         "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
         "source_ids": [
@@ -403,7 +403,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Jacob F.",
+      "public_name_or_handle": "AP-016",
       "identity_link": {
         "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
         "source_ids": [
@@ -534,7 +534,7 @@
     },
     {
       "id": "C4",
-      "public_name_or_handle": "Plenty-Initiative-49",
+      "public_name_or_handle": "AP-034",
       "identity_link": {
         "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
         "source_ids": [
@@ -675,5 +675,6 @@
         }
       ]
     }
-  ]
+  ],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

@@ -49,4 +49,4 @@ jobs:
       - name: Check archived records and frozen audit
         run: |
           python tests/check_records.py --root archive/research
-          python tests/check_source_audit.py archive/evals/source-audits/2026-10-05 --records-root archive
+          python tests/check_source_audit.py archive/evals/source-audits/2026-10-05 --records-root archive --redactions archive/research/privacy-redactions.json

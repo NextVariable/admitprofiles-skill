@@ -25,3 +25,9 @@ The four program reports include field-level sources and search logs. Public sam
 | Northwestern MSIS | [Read](northwestern-msis/2026-10-05-cohort-review/report.md) | Insufficient recent background evidence; retains program-version conflicts and search leads |
 
 Each directory contains a readable report, structured records and a search log. Only current versions appear here; earlier drafts and corrections are in the [archive](../archive/README.md).
+
+## 公开示例的隐私编辑 / Privacy edits
+
+2026-10-25：当前与 `archive/research/` 示例采用 AP 化名，撤下个人主页、LinkedIn、个人简历、具名人物页和个人社区帖的直达链接；项目说明和官方群体文章保留。案例 ID、样本数、统计、字段状态及证据引用关系保留。`https://redacted.invalid/source/...` 是不可访问的占位标记，不能作为可重查来源；历史访问状态不代表本次核验。冻结哈希保留为历史元数据，当前脱敏文件的哈希单独登记。历史归档也经过隐私编辑，不能再称字节不变的冻结原件。
+
+这是最小化去标识处理，不是不可逆匿名化：稀有背景、时间线及官方群体文章仍可能关联本人。旧提交、分支、标签、第三方 fork、克隆和缓存可能仍保留原始资料；本次没有重写 Git 历史，也没有修改本目录之外的历史评估材料。
