@@ -67,9 +67,9 @@
     },
     {
       "id": "SR",
-      "url": "https://raytsao0508.com/about-ray",
-      "title": "About Ray / TSAO Yu-Jui",
-      "publisher": "About Ray / TSAO Yu-Jui",
+      "url": "https://redacted.invalid/source/8547a0ad40bf",
+      "title": "About AP-038 / AP-120 AP-119",
+      "publisher": "About AP-038 / AP-120 AP-119",
       "source_type": "personal_website",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -78,9 +78,9 @@
     },
     {
       "id": "SM",
-      "url": "https://www.linkedin.com/posts/mary-muthoni-k-22082b1b0_ucberkeley-developmentengineering-energywaterenvironment-activity-7498365198135738368-JAAB",
-      "title": "Mary Muthoni K. program announcement",
-      "publisher": "Mary Muthoni K. program announcement",
+      "url": "https://redacted.invalid/source/01be17f7b74d",
+      "title": "AP-026 program announcement",
+      "publisher": "AP-026 program announcement",
       "source_type": "personal_post",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -91,7 +91,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Mingxi Tang",
+      "public_name_or_handle": "AP-029",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -216,7 +216,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Pratiyush Singh",
+      "public_name_or_handle": "AP-036",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -377,7 +377,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Neel Simpson",
+      "public_name_or_handle": "AP-032",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -485,7 +485,7 @@
     },
     {
       "id": "C4",
-      "public_name_or_handle": "Longyu Gong",
+      "public_name_or_handle": "AP-024",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -610,7 +610,7 @@
     },
     {
       "id": "C5",
-      "public_name_or_handle": "Noam Anglo",
+      "public_name_or_handle": "AP-033",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -764,7 +764,7 @@
     },
     {
       "id": "C6",
-      "public_name_or_handle": "Alejandro Rodriguez",
+      "public_name_or_handle": "AP-001",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -896,7 +896,7 @@
     },
     {
       "id": "C7",
-      "public_name_or_handle": "Amir Kelifa",
+      "public_name_or_handle": "AP-003",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -1004,7 +1004,7 @@
     },
     {
       "id": "C8",
-      "public_name_or_handle": "Tanesha Aden",
+      "public_name_or_handle": "AP-044",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -1144,7 +1144,7 @@
     },
     {
       "id": "C9",
-      "public_name_or_handle": "Ben Fields",
+      "public_name_or_handle": "AP-006",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -1296,7 +1296,7 @@
     },
     {
       "id": "C10",
-      "public_name_or_handle": "Ray Tsao / TSAO, Yu-Jui",
+      "public_name_or_handle": "AP-038",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -1537,7 +1537,7 @@
     },
     {
       "id": "C11",
-      "public_name_or_handle": "Mary Muthoni K.",
+      "public_name_or_handle": "AP-026",
       "identity_link": {
         "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
         "source_ids": [
@@ -1656,5 +1656,6 @@
     "full_population": false,
     "stopping_rule": "14 rounds; rounds 13 and 14 no new verified identity or admissible key field after followup; inaccessible leads remain",
     "model": "gpt-6.1-sol (inherited model; no model switch invoked)"
-  }
+  },
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

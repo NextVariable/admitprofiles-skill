@@ -16,7 +16,7 @@
       2021,
       2023
     ],
-    "note": "目标最近已入学年级；实际个案覆盖2024入学及历史。2026 Tanesha索引线索另列未入核实案例。"
+    "note": "目标最近已入学年级；实际个案覆盖2024入学及历史。2026 AP-044索引线索另列未入核实案例。"
   },
   "sources": [
     {
@@ -54,8 +54,8 @@
     },
     {
       "id": "S4",
-      "url": "https://blumcenter.berkeley.edu/from-malawi-to-berkeley-and-back-how-m-deveng-student-mathews-tisatayane-achieved-his-dream-of-bringing-sustainable-development-to-his-hometown/",
-      "title": "Mathews Tisatayane profile",
+      "url": "https://redacted.invalid/source/c0c0d1e9ed59",
+      "title": "AP-027 profile",
       "publisher": "UC Berkeley",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -87,8 +87,8 @@
     },
     {
       "id": "S7",
-      "url": "https://id.linkedin.com/in/tanesha-aden",
-      "title": "Tanesha Aden LinkedIn indexed lead",
+      "url": "https://redacted.invalid/source/18636b17ed60",
+      "title": "AP-044 LinkedIn indexed lead",
       "publisher": "LinkedIn",
       "source_type": "self_report",
       "accessed_on": "2026-10-05",
@@ -98,7 +98,7 @@
     },
     {
       "id": "S8",
-      "url": "https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=868369",
+      "url": "https://redacted.invalid/source/83d59ec2f992",
       "title": "GrassEric forum indexed lead",
       "publisher": "一亩三分地",
       "source_type": "self_report",
@@ -111,7 +111,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Mingxi Tang",
+      "public_name_or_handle": "AP-029",
       "identity_link": {
         "basis": "官网明确具名并连接 MDevEng 学生身份",
         "source_ids": [
@@ -242,7 +242,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Pratiyush Singh",
+      "public_name_or_handle": "AP-036",
       "identity_link": {
         "basis": "官网明确具名并连接 MDevEng 学生身份",
         "source_ids": [
@@ -380,7 +380,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Tilti / Titli Thind",
+      "public_name_or_handle": "AP-045",
       "identity_link": {
         "basis": "官网明确具名并连接 MDevEng 学生身份",
         "source_ids": [
@@ -495,7 +495,7 @@
     },
     {
       "id": "C4",
-      "public_name_or_handle": "Excellence Joshua",
+      "public_name_or_handle": "AP-013",
       "identity_link": {
         "basis": "官网明确具名并连接 MDevEng 学生身份",
         "source_ids": [
@@ -623,7 +623,7 @@
     },
     {
       "id": "C5",
-      "public_name_or_handle": "Mathews Sapemba Tisatayane",
+      "public_name_or_handle": "AP-027",
       "identity_link": {
         "basis": "官网明确具名并连接 MDevEng 学生身份",
         "source_ids": [
@@ -781,7 +781,7 @@
   "archetypes": [],
   "leads": [
     {
-      "name": "Tanesha Aden",
+      "name": "AP-044",
       "source_id": "S7",
       "state": "snippet_only; direct open failed",
       "note": "缓存自报2026在读，ITS城市区域规划2015-2019，GPA3.67/4.00；不升级全文核实"
@@ -792,5 +792,6 @@
       "state": "snippet_only; direct open failed",
       "note": "缓存2022-09-16自报收到MDevEng offer并去UCB；未还原背景"
     }
-  ]
+  ],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

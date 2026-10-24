@@ -27,8 +27,8 @@
     },
     {
       "id": "S2",
-      "url": "https://graduateschool.brown.edu/news/2019-12-16/marco-ma",
-      "title": "Marco Ma student profile",
+      "url": "https://redacted.invalid/source/4ab34a58f0c8",
+      "title": "AP-025 student profile",
       "source_type": "official_profile",
       "published_on": "2019-12-16",
       "accessed_on": "2026-10-05",
@@ -37,8 +37,8 @@
     },
     {
       "id": "S3",
-      "url": "https://prime.brown.edu/people/chinmay-s",
-      "title": "Chinmay S. alumni Q&A",
+      "url": "https://redacted.invalid/source/1046f360167b",
+      "title": "AP-007 alumni Q&A",
       "source_type": "official_profile",
       "published_on": null,
       "accessed_on": "2026-10-05",
@@ -47,8 +47,8 @@
     },
     {
       "id": "S4",
-      "url": "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah",
-      "title": "Lily Badiani-Shah spotlight",
+      "url": "https://redacted.invalid/source/63203b58d5da",
+      "title": "AP-023 spotlight",
       "source_type": "official_profile",
       "published_on": "2026-08-20",
       "accessed_on": "2026-10-05",
@@ -59,7 +59,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Marco Ma",
+      "public_name_or_handle": "AP-025",
       "identity_link": {
         "basis": "官方人物页明确姓名与PRIME关系",
         "source_ids": [
@@ -179,7 +179,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Chinmay S.",
+      "public_name_or_handle": "AP-007",
       "identity_link": {
         "basis": "官方人物页明确姓名与PRIME关系",
         "source_ids": [
@@ -308,7 +308,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Lily Badiani-Shah",
+      "public_name_or_handle": "AP-023",
       "identity_link": {
         "basis": "官方人物页明确姓名与PRIME关系",
         "source_ids": [
@@ -510,5 +510,6 @@
       ],
       "resolution": "未解决；不输出确定开学年份或最后期限，不自动校正2025"
     }
-  ]
+  ],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

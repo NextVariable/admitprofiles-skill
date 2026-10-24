@@ -17,7 +17,7 @@ VERDICTS = {
 }
 
 
-def check(inventory, audits, root):
+def check(inventory, audits, root, redactions=None):
     errors = []
     expected = {u["unit_id"] for u in inventory["units"]}
     if len(expected) != len(inventory["units"]):
@@ -45,13 +45,34 @@ def check(inventory, audits, root):
         errors.append(f"Missing audit unit: {ident}")
     for ident in sorted(seen - expected):
         errors.append(f"Unexpected audit unit: {ident}")
+    approved = {}
+    known = {entry["path"]: entry["sha256"] for entry in inventory["files"]}
+    if redactions is not None:
+        if redactions.get("schema_version") != 1:
+            errors.append("Invalid privacy redaction manifest version")
+        for row in redactions.get("files", []):
+            name = row.get("path", "")
+            if (
+                name not in known
+                or not name.startswith("research/")
+                or ".." in Path(name).parts
+                or name in approved
+                or row.get("original_sha256") != known.get(name)
+                or row.get("reason") != "public-example-privacy-minimization"
+            ):
+                errors.append(f"Invalid privacy redaction entry: {name}")
+                continue
+            approved[name] = row.get("public_sha256")
     for entry in inventory["files"]:
         path = root / entry["path"]
         try:
             digest = hashlib.sha256(path.read_bytes()).hexdigest()
         except OSError:
             digest = None
-        if digest != entry["sha256"]:
+        if entry["path"] in approved:
+            if digest is None or digest != approved[entry["path"]]:
+                errors.append(f"Privacy-edited file changed: {entry['path']}")
+        elif digest != entry["sha256"]:
             errors.append(f"Historical file changed: {entry['path']}")
     return errors
 
@@ -60,6 +81,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("audit_dir", type=Path)
     parser.add_argument("--records-root", type=Path, required=True)
+    parser.add_argument(
+        "--redactions",
+        type=Path,
+        help="Explicit manifest of privacy edits; original inventory stays unchanged",
+    )
     args = parser.parse_args()
     inventory = json.loads((args.audit_dir / "inventory.json").read_text())
     audits = []
@@ -69,10 +95,16 @@ def main():
         data = json.loads(path.read_text())
         if isinstance(data, dict) and "units" in data:
             audits.append(data)
-    errors = check(inventory, audits, args.records_root)
+    redactions = json.loads(args.redactions.read_text()) if args.redactions else None
+    errors = check(inventory, audits, args.records_root, redactions)
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
+    if redactions is not None:
+        print(
+            "Privacy-edited public files verified against separate hashes; "
+            "these are not byte-identical frozen originals."
+        )
     print(
         f"Audit covers {len(inventory['units'])} frozen units; source truth is not machine certified."
     )

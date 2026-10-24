@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "note": "Explicit privacy edits to public examples only. Original inventory hashes and historical audit verdicts are unchanged. This manifest verifies edited bytes, not source truth or anonymity.",
+  "files": [
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-forward-test/cases.json",
+      "original_sha256": "9cdf0c15d4665738a0ad5487e2692bd26102fb7745da2e822cb5618aea9f576c",
+      "public_sha256": "1df8ca1ee155a643c93204411ddc41b5178c3a0c086b43efe262ef189331453d",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-forward-test/report.md",
+      "original_sha256": "0771ff58026c5ff0260a4a2933c74e6fe1ee4c78125420a79ed61eaf123e6bd9",
+      "public_sha256": "f4db864745e6fa934f05a1821ecdbdb9be234fd3a29cd70d19fa38c07964ca7c",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-forward-test/independent-draft/cases.json",
+      "original_sha256": "ee366f0acc2cc6c6fa6277f7a94ce9a679646901630bdc6392ad64f49b28948f",
+      "public_sha256": "de0d7780aae4b2b2db4482ce0ad739ea849014e82597e0438e1ac6650a3ed741",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-forward-test/independent-draft/report.md",
+      "original_sha256": "ed51e48e62006988e0b32b7aa71dea300d471b5c42dba001d9a0ad563048e040",
+      "public_sha256": "105371ce9477da8674e9d04ef441bdfd00541991cd39e228628b278448c2262a",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-source-review/cases.json",
+      "original_sha256": "f62d93ba77a65dab2950690dacb41b9830ceef30b20cad217b496355f0bf84d0",
+      "public_sha256": "3193380092b89c1372d6c09001b2ecd439e9b1d6a84aeec4428b417f2b733c51",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-source-review/report.md",
+      "original_sha256": "068eca3655bc2163be0b2dd40444fcdca0c782bf28d37acf06f6f172312a77fd",
+      "public_sha256": "643c3c5d1ab374c4111a39b07cfb2d7a6889b9729b624ac272ee64c1f71c29a5",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-forward-test/cases.json",
+      "original_sha256": "e8998c98784a47acef3ee73e831b1a9d3c27d614498626d7d7e11196dcc670c6",
+      "public_sha256": "802e48a72ddf9268a8c9d8d008e04a06ac9363dd7d3b109c86e8b0f3a92eefde",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-forward-test/report.md",
+      "original_sha256": "75e29ca81880c6bebf336d5c9420d354d78b9cd19f760943a7025e732ab8e941",
+      "public_sha256": "2df1f597f81c7f39f182e3f0da748ca4f0f87a34e1745eaacc8515093897f2aa",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json",
+      "original_sha256": "371b0bca2bdfe15a6da2051d1e9a85d917f69a4ff2735ee3b033431ab7a51839",
+      "public_sha256": "04ec39bcc0759cc99de492abca1b08b4ec15ff8afae183931d7a412d1409d8f9",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-forward-test/independent-draft/report.md",
+      "original_sha256": "0ca66d006e552de07174e441f9a05eb340a31d3460a078954c0c559eeffd17be",
+      "public_sha256": "840cf2052391f18d8b3dd61c92aea8213f21661a0d17f4926dd16ac8352acb58",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-scope-test/cases.json",
+      "original_sha256": "8225aa333c274d2b20e2e8adb99c444af48e0d107ad8648633c7bca0f84d5a06",
+      "public_sha256": "c27bdda2eabd9a512afd24f0a4a21a68bec220f2760b805e90c540266631acac",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-scope-test/report.md",
+      "original_sha256": "4412a19cdba1fb021e27eb4d6726119ee3493a55df457648e4dcbccead5de7ce",
+      "public_sha256": "adbaeab7d1bb4257ba94f51f3ab966086aa007d86ad621c3cd3d15f624d55b56",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/cmu-miips/2026-10-05-pilot/cases.json",
+      "original_sha256": "e19f7eb92d975495052970ad025dcd58cfe50b60a113dd32fe30c32b56661246",
+      "public_sha256": "290c58150701352ba76f170cc20400afc267f57d07794f92c6d0ef0a56d411ab",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/cmu-miips/2026-10-05-pilot/report.md",
+      "original_sha256": "0c0b5732333305d6b41aa7fd19cc8cd00b0d7dd0ea5de3ba51ab5f5e9a6f2025",
+      "public_sha256": "0d278ad3a7bca0d3a4d2c161f6adc8e3f3f759496b799f9901e367902190bc89",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/cmu-miips/2026-10-05-review/cases.json",
+      "original_sha256": "b5728d11ef6e289b32972503b7b108a09d431e43e757e4b4f84c35d33a75a435",
+      "public_sha256": "b225f850745e5cee5460800a1925936f570f29b565712a10f6f079b29a0e1185",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/cmu-miips/2026-10-05-review/report.md",
+      "original_sha256": "24f485e264eea639d0e238eeab97da27a7ca47fa3dcb76ac3ebc81e89ea6af8b",
+      "public_sha256": "84a8e80284fd2709e582dd66b60045e5eb1575dfb24dd13e61a731e20e4f4e12",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-delivery-review/cases.json",
+      "original_sha256": "dfe8a8609a75912ecb4f18c308c910464ece15490968c5a805e1ee8e8c202502",
+      "public_sha256": "0f8496e681c99a7c39c0b8c5f77078d2c85c1c2eea5e6e5ea8b9272220d6261c",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-delivery-review/report.md",
+      "original_sha256": "bae63762b73605f66a802d7981f44bcd566db612d1ad7aa77ade738102251e18",
+      "public_sha256": "d1fdc3502669b1ff214a5f8b093120d1f195dc39238242828341f6cf768438e3",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-forward-test/cases.json",
+      "original_sha256": "f554ec4a1bbf78c9247bb0607c9c6f0104658a769f6d7d876ee14655b413f06b",
+      "public_sha256": "1888b0de2ee10af2572b7af54f0fcd27061476c84660bc3a26887b7a8031503f",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-forward-test/report.md",
+      "original_sha256": "fc2eb6332ebae731d9356f56528ad9f9366a2ab71b21fc0640b6d6c56bb2adaf",
+      "public_sha256": "89cd7694a376733866a58038a859d69a10bf3cebd636da974d652cc4b9b9c844",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-source-review/cases.json",
+      "original_sha256": "19a7eda2a7e034284a6d85551e141d37fd46d05f49966431ce7606d7c85cb4ca",
+      "public_sha256": "5df021ec3533738d5113a51b8594d3c9c53b4f92ed715243340d32cdbfd9cdfa",
+      "reason": "public-example-privacy-minimization"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-source-review/report.md",
+      "original_sha256": "66929bff8b0aac1e09f1d972eacaa6226a3ad7562fed4b6575403278b3a57cc4",
+      "public_sha256": "e5b2d4cd88cf30907a7eaf63f9b3cf1640fb6d5c37b27f738dcdb038fdeae186",
+      "reason": "public-example-privacy-minimization"
+    }
+  ]
+}

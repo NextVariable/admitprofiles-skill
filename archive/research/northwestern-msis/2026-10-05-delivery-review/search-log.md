@@ -1,12 +1,14 @@
+隐私编辑（2026-10-25）：本文的个人标识已替换为化名，个人来源链接已撤下。记录中的检索、冻结与访问状态是历史描述，不是本次重新核实；背景组合及保留的官方合辑仍可能关联到本人。
+
 # 检索日志
 
 2026-10-05；范围：Northwestern SPS Master of Science in Information Systems，当前各版本分开，优先搜索2023—2025、历史案例单列。工具：web搜索及打开，未使用登录权限。
 
-第一轮实际查询：`site.northwestern.edu MSIS master information systems student alumni`；`Northwestern MSIS alumni resume education work`；`Northwestern MSIS admission 一亩三分地 录取`。发现官网Austin、Swetha、Nancy及LinkedIn线索；排除其他学位、学校职业简历模板、Northwestern Mutual公司和未录取的讨论者。
+第一轮实际查询：`site.northwestern.edu MSIS master information systems student alumni`；`Northwestern MSIS alumni resume education work`；`Northwestern MSIS admission 一亩三分地 录取`。发现官网AP-005、AP-043、AP-031及LinkedIn线索；排除其他学位、学校职业简历模板、Northwestern Mutual公司和未录取的讨论者。
 
-核查：打开MSIS官方主页面，确认part-time远程与accelerated full-time不同；打开Austin官网正文，点击主页面Swetha、Nancy、compare页面并读取。得到3个独立官方历史案例。三人的本科学校专业与申请前年限大多缺失；新增的是身份、版本与经历时间边界，而非完整画像。
+核查：打开MSIS官方主页面，确认part-time远程与accelerated full-time不同；打开AP-005官网正文，点击主页面AP-043、AP-031、compare页面并读取。得到3个独立官方历史案例。三人的本科学校专业与申请前年限大多缺失；新增的是身份、版本与经历时间边界，而非完整画像。
 
-LinkedIn Swetha个人页：搜索索引有教育区间；直接open返回Internal Error。来源保留snippet_only，不声称全文访问，不据其索引把人物完整拼接。Reddit `experiences_with_onlineparttime_msis_degree`：open成功，开帖者在考虑申请，排除。
+LinkedIn AP-043个人页：搜索索引有教育区间；直接open返回Internal Error。来源保留snippet_only，不声称全文访问，不据其索引把人物完整拼接。Reddit `experiences_with_onlineparttime_msis_degree`：open成功，开帖者在考虑申请，排除。
 
 第二轮实际查询：`"Northwestern" "MSIS" "2024" "admitted"`；`"Northwestern" "MSIS" "2025" "resume"`；`site.1point3acres.com "Northwestern" "MSIS"`。得到一个2020年匿名AD自报的原帖搜索提取，新增1个录取线索；正文open失败（Cache miss）。提取中的隐去本科字段没有尝试绕过；它没有确定版本或入学证明。
 
@@ -18,7 +20,7 @@ LinkedIn Swetha个人页：搜索索引有教育区间；直接open返回Interna
 
 ## 第五轮本次执行
 
-本次仅做交付来源复核，未重新执行上面的历史查询。直接打开 Austin Olson、Swetha Popuri、Nancy Dandridge 三篇官网正文，全部可读。核对 Austin 线上就读、pre-med不代表完成本科学位、军旅年份不代表申请前全职年限；Swetha毕业状态与毕业后fellowship；Nancy2016年在读与线上版本。未重新打开一亩三分地原帖或LinkedIn，不升级其旧摘要状态。新增人物为0；已核实案例数组从4条收敛为3条，摘要线索移到本日志；既有原目录完整保留。
+本次仅做交付来源复核，未重新执行上面的历史查询。直接打开 AP-005、AP-043、AP-031 三篇官网正文，全部可读。核对 AP-005 线上就读、pre-med不代表完成本科学位、军旅年份不代表申请前全职年限；AP-043毕业状态与毕业后fellowship；Nancy2016年在读与线上版本。未重新打开一亩三分地原帖或LinkedIn，不升级其旧摘要状态。新增人物为0；已核实案例数组从4条收敛为3条，摘要线索移到本日志；既有原目录完整保留。
 
 ## 未核实摘要线索（原 C4 完整保留）
 
@@ -27,7 +29,7 @@ LinkedIn Swetha个人页：搜索索引有教育区间；直接open返回Interna
 ```json
 {
   "id": "C4",
-  "public_name_or_handle": "wujx1998",
+  "public_name_or_handle": "AP-049",
   "identity_link": {
     "basis": "single original source explicitly names Northwestern MSIS person or anonymous author; no name-only cross-site merge",
     "source_ids": [
