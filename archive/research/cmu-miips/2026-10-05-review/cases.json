@@ -19,8 +19,8 @@
   "sources": [
     {
       "id": "S1",
-      "url": "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html",
-      "title": "Miriam Desta student spotlight",
+      "url": "https://redacted.invalid/source/86462f209daf",
+      "title": "AP-030 student spotlight",
       "publisher": "Carnegie Mellon University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -30,8 +30,8 @@
     },
     {
       "id": "S2",
-      "url": "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html",
-      "title": "Julia Ang student spotlight",
+      "url": "https://redacted.invalid/source/76e7c5950e49",
+      "title": "AP-019 student spotlight",
       "publisher": "Carnegie Mellon University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -41,8 +41,8 @@
     },
     {
       "id": "S3",
-      "url": "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html",
-      "title": "Allan Gulley student spotlight",
+      "url": "https://redacted.invalid/source/fcbaf937bf75",
+      "title": "AP-002 student spotlight",
       "publisher": "Carnegie Mellon University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -63,8 +63,8 @@
     },
     {
       "id": "S5",
-      "url": "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html",
-      "title": "Daniela Decoud spotlight",
+      "url": "https://redacted.invalid/source/bdf5314dcbcc",
+      "title": "AP-009 spotlight",
       "source_type": "official_profile",
       "access_state": "full_text",
       "accessed_on": "2026-10-05",
@@ -73,8 +73,8 @@
     },
     {
       "id": "S6",
-      "url": "https://danebula.com/Resume_FTJ-%20V4.pdf",
-      "title": "Danyal Ghanbari public resume",
+      "url": "https://redacted.invalid/source/66d2952f9c63",
+      "title": "AP-010 public resume",
       "source_type": "personal_resume",
       "access_state": "full_text",
       "accessed_on": "2026-10-05",
@@ -83,7 +83,7 @@
     },
     {
       "id": "S7",
-      "url": "https://www.1point3acres.com/bbs/thread-860238-1-1.html",
+      "url": "https://redacted.invalid/source/e14edd250266",
       "title": "2nd AD CMU MIIPS Advanced Study",
       "source_type": "forum_self_report",
       "access_state": "partial_text",
@@ -93,8 +93,8 @@
     },
     {
       "id": "S8",
-      "url": "https://www.linkedin.com/posts/julia-ang_careertransition-projectmanagement-productmanagement-activity-7208734209119510528-WdP6",
-      "title": "Julia Ang transition post",
+      "url": "https://redacted.invalid/source/98ef4b8e4d69",
+      "title": "AP-019 transition post",
       "source_type": "professional_self_report",
       "access_state": "snippet_only",
       "accessed_on": "2026-10-05",
@@ -105,7 +105,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Miriam Desta",
+      "public_name_or_handle": "AP-030",
       "identity_link": {
         "basis": "官方人物介绍直接将姓名与项目关联",
         "source_ids": [
@@ -255,7 +255,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Julia Ang",
+      "public_name_or_handle": "AP-019",
       "identity_link": {
         "basis": "官方人物介绍直接将姓名与项目关联",
         "source_ids": [
@@ -407,7 +407,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Allan Gulley",
+      "public_name_or_handle": "AP-002",
       "identity_link": {
         "basis": "官方人物介绍直接将姓名与项目关联",
         "source_ids": [
@@ -506,7 +506,7 @@
     },
     {
       "id": "C4",
-      "public_name_or_handle": "Daniela Decoud",
+      "public_name_or_handle": "AP-009",
       "identity_link": {
         "basis": "来源直接关联人物／账号与项目；未猜测匿名账号真实身份",
         "source_ids": [
@@ -658,7 +658,7 @@
     },
     {
       "id": "C5",
-      "public_name_or_handle": "Danyal Ghanbari",
+      "public_name_or_handle": "AP-010",
       "identity_link": {
         "basis": "来源直接关联人物／账号与项目；未猜测匿名账号真实身份",
         "source_ids": [
@@ -877,7 +877,7 @@
     },
     {
       "id": "C6",
-      "public_name_or_handle": "haitongclin",
+      "public_name_or_handle": "AP-048",
       "identity_link": {
         "basis": "来源直接关联人物／账号与项目；未猜测匿名账号真实身份",
         "source_ids": [
@@ -1170,5 +1170,6 @@
       "scope": "单个已观察路径；不同届别与轨道不能合算比例",
       "limitations": "不能推断稳定类别、招生偏好或录取原因；C5经历申请前时序未核实"
     }
-  ]
+  ],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

@@ -85,3 +85,56 @@ class SourceAuditTests(unittest.TestCase):
                 for e in audit.check(self.inventory, reviews, self.root)
             )
         )
+
+
+class PrivacyRedactionTests(unittest.TestCase):
+    def setUp(self):
+        SourceAuditTests.setUp(self)
+        (self.root / "research").mkdir()
+        (self.root / "research/record.json").write_text("{}")
+        self.inventory["files"][0]["path"] = "research/record.json"
+        (self.root / "research/record.json").write_text('{"privacy": true}')
+        self.manifest = {
+            "schema_version": 1,
+            "files": [
+                {
+                    "path": "research/record.json",
+                    "original_sha256": hashlib.sha256(b"{}").hexdigest(),
+                    "public_sha256": hashlib.sha256(b'{"privacy": true}').hexdigest(),
+                    "reason": "public-example-privacy-minimization",
+                }
+            ],
+        }
+
+    def test_manifest_is_required_for_changed_examples(self):
+        self.assertTrue(audit.check(self.inventory, self.reviews, self.root))
+
+    def test_explicit_redaction_keeps_original_inventory(self):
+        before = copy.deepcopy(self.inventory)
+        self.assertEqual(
+            audit.check(self.inventory, self.reviews, self.root, self.manifest), []
+        )
+        self.assertEqual(self.inventory, before)
+
+    def test_edited_bytes_tampering_is_rejected(self):
+        (self.root / "research/record.json").write_text("tampered")
+        self.assertTrue(
+            audit.check(self.inventory, self.reviews, self.root, self.manifest)
+        )
+
+    def test_wrong_original_hash_is_rejected(self):
+        self.manifest["files"][0]["original_sha256"] = "0" * 64
+        self.assertTrue(
+            audit.check(self.inventory, self.reviews, self.root, self.manifest)
+        )
+
+    def test_unknown_or_duplicate_manifest_path_is_rejected(self):
+        for path in ("../outside.json", "research/record.json"):
+            manifest = copy.deepcopy(self.manifest)
+            row = copy.deepcopy(manifest["files"][0])
+            row["path"] = path
+            manifest["files"].append(row)
+            with self.subTest(path=path):
+                self.assertTrue(
+                    audit.check(self.inventory, self.reviews, self.root, manifest)
+                )
