@@ -15,8 +15,8 @@
   "sources": [
     {
       "id": "S1",
-      "url": "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html",
-      "title": "Miriam Desta student spotlight",
+      "url": "https://redacted.invalid/source/86462f209daf",
+      "title": "AP-030 student spotlight",
       "publisher": "Carnegie Mellon University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -26,8 +26,8 @@
     },
     {
       "id": "S2",
-      "url": "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html",
-      "title": "Julia Ang student spotlight",
+      "url": "https://redacted.invalid/source/76e7c5950e49",
+      "title": "AP-019 student spotlight",
       "publisher": "Carnegie Mellon University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -37,8 +37,8 @@
     },
     {
       "id": "S3",
-      "url": "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html",
-      "title": "Allan Gulley student spotlight",
+      "url": "https://redacted.invalid/source/fcbaf937bf75",
+      "title": "AP-002 student spotlight",
       "publisher": "Carnegie Mellon University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -61,7 +61,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Miriam Desta",
+      "public_name_or_handle": "AP-030",
       "identity_link": {
         "basis": "官方人物介绍直接将姓名与项目关联",
         "source_ids": [
@@ -162,7 +162,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Julia Ang",
+      "public_name_or_handle": "AP-019",
       "identity_link": {
         "basis": "官方人物介绍直接将姓名与项目关联",
         "source_ids": [
@@ -254,7 +254,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Allan Gulley",
+      "public_name_or_handle": "AP-002",
       "identity_link": {
         "basis": "官方人物介绍直接将姓名与项目关联",
         "source_ids": [
@@ -350,5 +350,6 @@
       "scope": "单一已观察路径，具体项目时长未知",
       "limitations": "不能称稳定群体；工作区间与申请时点缺失"
     }
-  ]
+  ],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

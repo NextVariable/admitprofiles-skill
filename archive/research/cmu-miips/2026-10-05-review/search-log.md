@@ -1,10 +1,12 @@
+隐私编辑（2026-10-25）：本文的个人标识已替换为化名，个人来源链接已撤下。记录中的检索、冻结与访问状态是历史描述，不是本次重新核实；背景组合及保留的官方合辑仍可能关联到本人。
+
 # 检索与访问记录
 
 日期2026-10-05。目标CMU Master of Integrated Innovation for Products & Services，区分Advanced与Online。以下是执行过的查询组合摘要，不是可逐秒重放的浏览器日志；不声称全网穷尽。实际访问日期与字段定位保存在cases.json。
 
-官网查询使用CMU MIIPS student spotlight / student profiles / undergraduate background等组合，并打开Miriam Desta、Julia Ang、Allan Gulley、Daniela Decoud、Aman Sinha及项目说明。四名线下或未明确时长的人物介绍得到背景信息；Allan为Online排除项。Aman未纳入本次结构化样本，不用未提取信息增加人数。
+官网查询使用CMU MIIPS student spotlight / student profiles / undergraduate background等组合，并打开AP-030、AP-019、AP-002、AP-009、AP-112及项目说明。四名线下或未明确时长的人物介绍得到背景信息；AP-002为Online排除项。Aman未纳入本次结构化样本，不用未提取信息增加人数。
 
-职业和个人渠道使用CMU MIIPS resume PDF、John Vanderveen MIIPS、Danyal Ghanbari MIIPS、Julia Ang CMU LinkedIn等查询。Danyal简历PDF全文可读，记录一名毕业自报。John个人履历有项目学历和历史经历，但项目起止与页面新旧混杂，未纳入本次主要样本。Danyal网站首页打开仅少量JS框架内容；CMU团队文章中的更长姓名未建立充分身份连接，不合并。Julia官网可关联本人职业主页，检索也发现同名Microsoft及其他行业人员，均未凭同名合并。LinkedIn帖子仅摘要可用，正文打开失败，保留计划入学字段的有限自报证据。Cindy Kuo LinkedIn线索未获得足够完整内容，不纳入。
+职业和个人渠道使用CMU MIIPS resume PDF、AP-017 MIIPS、AP-010 MIIPS、AP-019 CMU LinkedIn等查询。AP-010简历PDF全文可读，记录一名毕业自报。AP-017个人履历有项目学历和历史经历，但项目起止与页面新旧混杂，未纳入本次主要样本。AP-010网站首页打开仅少量JS框架内容；CMU团队文章中的更长姓名未建立充分身份连接，不合并。AP-019官网可关联本人职业主页，检索也发现同名Microsoft及其他行业人员，均未凭同名合并。LinkedIn帖子仅摘要可用，正文打开失败，保留计划入学字段的有限自报证据。AP-008 LinkedIn线索未获得足够完整内容，不纳入。
 
 论坛查询使用CMU MIIPS admission profile / offer / reject以及site:1point3acres.com。thread-860238-1-1公开正文及作者回复可读取，但学校、成绩表单等字段受积分限制；记录一名offer自报，绝不补出隐藏学校名。thread-859817-1-1搜索摘要为拒录线索，正文打开失败，单列未核实线索且不加入录取分类。
 

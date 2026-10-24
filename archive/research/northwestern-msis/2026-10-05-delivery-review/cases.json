@@ -27,8 +27,8 @@
     },
     {
       "id": "S2",
-      "url": "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html",
-      "title": "Austin Olson Returns to Technology",
+      "url": "https://redacted.invalid/source/b29dd8873a50",
+      "title": "AP-005 Returns to Technology",
       "source_type": "official_profile",
       "access_state": "full_text",
       "locator": "Finding new career path",
@@ -37,8 +37,8 @@
     },
     {
       "id": "S3",
-      "url": "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html",
-      "title": "Swetha Uses MSIS Degree to Improve Healthcare System",
+      "url": "https://redacted.invalid/source/7185811f32e1",
+      "title": "AP-043 Uses MSIS Degree to Improve Healthcare System",
       "source_type": "official_profile",
       "access_state": "full_text",
       "locator": "Northwestern hands-on courses",
@@ -47,7 +47,7 @@
     },
     {
       "id": "S4",
-      "url": "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html",
+      "url": "https://redacted.invalid/source/b0da01ae2e3e",
       "title": "Making Interplanetary Travel A Reality",
       "source_type": "official_profile",
       "access_state": "full_text",
@@ -57,8 +57,8 @@
     },
     {
       "id": "S5",
-      "url": "https://www.linkedin.com/in/swetha-popuri",
-      "title": "Swetha Popuri LinkedIn search extract",
+      "url": "https://redacted.invalid/source/f7badc420688",
+      "title": "AP-043 LinkedIn search extract",
       "source_type": "personal_profile",
       "access_state": "snippet_only",
       "locator": "indexed education section; direct open failed",
@@ -67,7 +67,7 @@
     },
     {
       "id": "S6",
-      "url": "https://www.1point3acres.com/bbs/thread-604361-1-1.html",
+      "url": "https://redacted.invalid/source/2a058adb1a1e",
       "title": "1st AD补报@NU SPS MSIS 求项目评价",
       "source_type": "forum_self_report",
       "access_state": "snippet_only",
@@ -77,7 +77,7 @@
     },
     {
       "id": "S7",
-      "url": "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/",
+      "url": "https://redacted.invalid/source/f1342caec22d",
       "title": "Experiences with Online/Part-time MSIS degree?",
       "source_type": "forum",
       "access_state": "full_text",
@@ -89,7 +89,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Austin Olson",
+      "public_name_or_handle": "AP-005",
       "identity_link": {
         "basis": "single original source explicitly names Northwestern MSIS person or anonymous author; no name-only cross-site merge",
         "source_ids": [
@@ -98,7 +98,7 @@
         "evidence": [
           {
             "source_id": "S2",
-            "locator": "图注明确Austin毕业；正文MSIS ’21与Finding new career path online学习段"
+            "locator": "图注明确AP-005毕业；正文MSIS ’21与Finding new career path online学习段"
           }
         ]
       },
@@ -224,7 +224,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Swetha Popuri",
+      "public_name_or_handle": "AP-043",
       "identity_link": {
         "basis": "single original source explicitly names Northwestern MSIS person or anonymous author; no name-only cross-site merge",
         "source_ids": [
@@ -233,7 +233,7 @@
         "evidence": [
           {
             "source_id": "S3",
-            "locator": "图注明确Swetha毕业；Northwestern hands-on课程段说明fellowship毕业后开始"
+            "locator": "图注明确AP-043毕业；Northwestern hands-on课程段说明fellowship毕业后开始"
           }
         ]
       },
@@ -329,7 +329,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Nancy Dandridge",
+      "public_name_or_handle": "AP-031",
       "identity_link": {
         "basis": "single original source explicitly names Northwestern MSIS person or anonymous author; no name-only cross-site merge",
         "source_ids": [
@@ -440,5 +440,6 @@
       "tags": []
     }
   ],
-  "archetypes": []
+  "archetypes": [],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

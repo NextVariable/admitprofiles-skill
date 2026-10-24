@@ -5,5 +5,14 @@
     "search-log.md": "0e88720d1f736f2d7dcdc403a95154c03f63468b233d1d58fdf573ebb9d7cb3e",
     "cases.json": "a4c4398b6715a8510188c0aeaa081385892f422a0ccd97a31fe2d36c607e146a",
     "raw-search-results.json": "1ff2b8988e06e1df0cc737ad513f8bd2705f5a5e2fb73ed58a743b96a403a8b8"
+  },
+  "privacy_redaction": {
+    "date": "2026-10-25",
+    "note": "Original hashes retained as historical metadata; they do not authenticate the pseudonymized public files. Missing raw-search-results.json was not regenerated. No raw-to-pseudonym mapping is published.",
+    "public_file_sha256": {
+      "report.md": "676361725919a716f8b581de3938c9531f3550e6cddd581d88535db0399ddd6b",
+      "search-log.md": "68cc69b7f5d0936f1eefc641230654da8ef4d57572d87046497127ea8d81c119",
+      "cases.json": "b2690870316c6d3639b01d438c706293f6a1f03796bedceec0fbdaff62b8050d"
+    }
   }
 }

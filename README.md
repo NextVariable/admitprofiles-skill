@@ -48,7 +48,7 @@ Requires Codex and web research tools; record validation requires Python 3.11+. 
 
 ```sh
 git clone https://github.com/NextVariable/admitprofiles-skill.git
-cd admitprofiles
+cd admitprofiles-skill
 mkdir -p "$HOME/.agents/skills"
 ln -s "$PWD/skills/admitprofiles" "$HOME/.agents/skills/admitprofiles"
 ```

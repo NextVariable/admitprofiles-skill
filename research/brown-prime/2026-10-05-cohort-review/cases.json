@@ -62,8 +62,8 @@
     },
     {
       "id": "S5",
-      "url": "https://prime.brown.edu/people/megan-d",
-      "title": "Megan D.",
+      "url": "https://redacted.invalid/source/32909d3d4afd",
+      "title": "AP-028",
       "publisher": "Brown University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -73,7 +73,7 @@
     },
     {
       "id": "S6",
-      "url": "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah",
+      "url": "https://redacted.invalid/source/63203b58d5da",
       "title": "Seeing beyond the limits",
       "publisher": "Brown University",
       "source_type": "official_profile",
@@ -84,8 +84,8 @@
     },
     {
       "id": "S7",
-      "url": "https://www.lilybadianishah.com/",
-      "title": "Lily Badiani-Shah",
+      "url": "https://redacted.invalid/source/0597c48b26f6",
+      "title": "AP-023",
       "publisher": "个人网站",
       "source_type": "personal_website",
       "accessed_on": "2026-10-05",
@@ -95,8 +95,8 @@
     },
     {
       "id": "S8",
-      "url": "https://www.linkedin.com/posts/rongmao-ma_brownuniversity-graduation-gratitude-activity-7340433236549869568-eEgP",
-      "title": "Sophia Ma graduation post",
+      "url": "https://redacted.invalid/source/eaaa0cf42964",
+      "title": "AP-041 graduation post",
       "publisher": "LinkedIn",
       "source_type": "self_report",
       "accessed_on": "2026-10-05",
@@ -106,8 +106,8 @@
     },
     {
       "id": "S9",
-      "url": "https://prime.brown.edu/people/harsh-verma-25",
-      "title": "Harsh Verma 25",
+      "url": "https://redacted.invalid/source/d211fd40b8d4",
+      "title": "AP-015 25",
       "publisher": "Brown University",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
@@ -117,20 +117,20 @@
     },
     {
       "id": "S10",
-      "url": "https://engineering.brown.edu/people/graduate-students/masters-program-innovation-management-and-entrepreneurship-students",
+      "url": "https://redacted.invalid/source/7ce4fdd9ed3b",
       "title": "PRIME Students",
       "publisher": "Brown University",
       "source_type": "official_directory",
       "accessed_on": "2026-10-05",
       "published_on": null,
       "access_state": "full_text",
-      "locator": "Xinyu Bai列在当前学生名录"
+      "locator": "AP-046列在当前学生名录"
     }
   ],
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Megan D.",
+      "public_name_or_handle": "AP-028",
       "identity_link": {
         "basis": "Brown PRIME 本人访谈",
         "source_ids": [
@@ -304,7 +304,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Lily Badiani-Shah",
+      "public_name_or_handle": "AP-023",
       "identity_link": {
         "basis": "Brown官网完整姓名及PRIME学位，个人网站同名连接",
         "source_ids": [
@@ -458,7 +458,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Sophia Ma",
+      "public_name_or_handle": "AP-041",
       "identity_link": {
         "basis": "LinkedIn 本人公开毕业帖，姓名与PRIME项目同帖",
         "source_ids": [
@@ -549,7 +549,7 @@
     },
     {
       "id": "C4",
-      "public_name_or_handle": "Harsh Verma",
+      "public_name_or_handle": "AP-015",
       "identity_link": {
         "basis": "Brown PRIME 官网人物页姓名与学位连结",
         "source_ids": [
@@ -693,5 +693,6 @@
         }
       ]
     }
-  ]
+  ],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }

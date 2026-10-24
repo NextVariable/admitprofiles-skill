@@ -28,8 +28,8 @@
     },
     {
       "id": "S2",
-      "url": "https://www.cmu.edu/iii/people/students/dec-2027/miips-advanced/arya-swamy.html",
-      "title": "Arya Swamy official bio",
+      "url": "https://redacted.invalid/source/520a5ec628e4",
+      "title": "AP-004 official bio",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -38,8 +38,8 @@
     },
     {
       "id": "S3",
-      "url": "https://aryaswamy.com/resume_page",
-      "title": "Arya Swamy public resume",
+      "url": "https://redacted.invalid/source/b706957d396f",
+      "title": "AP-004 public resume",
       "source_type": "personal_resume",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -48,8 +48,8 @@
     },
     {
       "id": "S4",
-      "url": "https://www.cmu.edu/iii/people/students/dec-2026/miips-advanced/rhea-devchell.html",
-      "title": "Rhea Devchell official bio",
+      "url": "https://redacted.invalid/source/a82806e3e963",
+      "title": "AP-039 official bio",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -58,8 +58,8 @@
     },
     {
       "id": "S5",
-      "url": "https://rdevchell.framer.ai/expertise",
-      "title": "Rhea Devchell Expertise",
+      "url": "https://redacted.invalid/source/84d283c055cd",
+      "title": "AP-039 Expertise",
       "source_type": "personal_resume",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -68,8 +68,8 @@
     },
     {
       "id": "S6",
-      "url": "https://www.cmu.edu/iii/people/students/dec-2027/miips-advanced/enakshi-dhingra.html",
-      "title": "Enakshi Dhingra official bio",
+      "url": "https://redacted.invalid/source/ebaa30eb4a6b",
+      "title": "AP-012 official bio",
       "source_type": "official_profile",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -78,8 +78,8 @@
     },
     {
       "id": "S7",
-      "url": "https://www.joshipranav.com/stories-from-work",
-      "title": "Pranav Joshi Stories from Work",
+      "url": "https://redacted.invalid/source/157bebb4dd55",
+      "title": "AP-035 Stories from Work",
       "source_type": "personal_resume",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -88,8 +88,8 @@
     },
     {
       "id": "S8",
-      "url": "https://www.reddit.com/r/hci/comments/1rvo0h2/cmu_miips_16month_vs_uw_mhcid_vs_northwestern_edi/",
-      "title": "Frosty_Bus6583 offers",
+      "url": "https://redacted.invalid/source/ecae9007b887",
+      "title": "AP-014 offers",
       "source_type": "forum_self_report",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -98,8 +98,8 @@
     },
     {
       "id": "S9",
-      "url": "https://www.1point3acres.com/bbs/thread-1060962-1-1.html",
-      "title": "Sophiaaya UX择校",
+      "url": "https://redacted.invalid/source/23c650768d1b",
+      "title": "AP-042 UX择校",
       "source_type": "forum_self_report",
       "accessed_on": "2026-10-05",
       "published_on": null,
@@ -120,7 +120,7 @@
   "cases": [
     {
       "id": "C1",
-      "public_name_or_handle": "Arya Swamy",
+      "public_name_or_handle": "AP-004",
       "identity_link": {
         "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
         "source_ids": [
@@ -129,7 +129,7 @@
         "evidence": [
           {
             "source_id": "S2",
-            "locator": "Heading and Education; official directly links aryaswamy.com portfolio"
+            "locator": "Heading and Education; official directly links [个人网址已撤下] portfolio"
           }
         ]
       },
@@ -298,7 +298,7 @@
     },
     {
       "id": "C2",
-      "public_name_or_handle": "Rhea Devchell",
+      "public_name_or_handle": "AP-039",
       "identity_link": {
         "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
         "source_ids": [
@@ -494,7 +494,7 @@
     },
     {
       "id": "C3",
-      "public_name_or_handle": "Enakshi Dhingra",
+      "public_name_or_handle": "AP-012",
       "identity_link": {
         "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
         "source_ids": [
@@ -633,7 +633,7 @@
     },
     {
       "id": "C4",
-      "public_name_or_handle": "Pranav Joshi",
+      "public_name_or_handle": "AP-035",
       "identity_link": {
         "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
         "source_ids": [
@@ -758,7 +758,7 @@
     },
     {
       "id": "C5",
-      "public_name_or_handle": "Frosty_Bus6583",
+      "public_name_or_handle": "AP-014",
       "identity_link": {
         "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
         "source_ids": [
@@ -867,7 +867,7 @@
     },
     {
       "id": "C6",
-      "public_name_or_handle": "Sophiaaya",
+      "public_name_or_handle": "AP-042",
       "identity_link": {
         "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
         "source_ids": [
@@ -959,5 +959,6 @@
       "conflicts": []
     }
   ],
-  "archetypes": []
+  "archetypes": [],
+  "privacy_notice": "Public example pseudonymized on 2026-10-25. AP labels are pseudonyms. redacted.invalid URLs are non-resolving redaction markers, not retrievable sources. Access states, dates and locators describe the historical observation, not a new verification. Counts, case IDs, fields and evidence references are retained. Aggregate official sources and background combinations may still allow re-identification."
 }
