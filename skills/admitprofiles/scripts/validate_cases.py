@@ -136,6 +136,14 @@ def _validate_relationships(data):
         if located != set(ids):
             error(path, "each source needs a field-specific locator")
 
+    _check_case_links(cases, refs, error)
+    _check_archetype_members(data.get("archetypes", []), cases, refs, error)
+    for i, conflict in enumerate(data.get("program_conflicts", [])):
+        refs(conflict, f"program_conflicts[{i}]")
+    return errors
+
+
+def _check_case_links(cases, refs, error):
     for cid, case in cases.items():
         refs(case["identity_link"], cid + ".identity_link")
         fields = case.get("fields", {})
@@ -190,7 +198,10 @@ def _validate_relationships(data):
             if experience.get("status") not in STATUSES:
                 error(path, "invalid experience status")
             refs(experience, path, required=experience.get("status") != "unknown")
-    for i, group in enumerate(data.get("archetypes", [])):
+
+
+def _check_archetype_members(archetypes, cases, refs, error):
+    for i, group in enumerate(archetypes):
         path = f"archetypes[{i}]"
         ids = group.get("case_ids", [])
         if not ids or len(set(ids)) != len(ids):
@@ -235,9 +246,6 @@ def _validate_relationships(data):
             if case.get("excluded_from_on_campus_distribution"):
                 error(path, f"{cid} explicitly excluded from this scope")
         refs(group, path)
-    for i, conflict in enumerate(data.get("program_conflicts", [])):
-        refs(conflict, f"program_conflicts[{i}]")
-    return errors
 
 
 class _StructureValidator:
